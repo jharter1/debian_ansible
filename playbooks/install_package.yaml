@@ -1,0 +1,21 @@
+---
+- hosts: all
+  user: ansible
+  become: True
+  tasks:
+    - name: Install stuff
+      apt:
+        name: '{{ item }}'
+        state: present
+        update_cache: True
+      loop:
+        - zsh
+        - vim
+        - curl
+        - unzip
+        - wget
+        - apt-transport-https
+        - ca-certificates
+        - gnupg
+        - lynx
+        - tmux
