@@ -22,3 +22,4 @@
         - make
         - tree
         - speedtest-cli
+        - glances
