@@ -18,6 +18,7 @@
         - ca-certificates
         - gnupg
         - lynx
+        - qemu
         - tmux
         - make
         - tree
@@ -31,3 +32,4 @@
         - virtinst
         - virt-manager
         - resolvconf
+        - cpu-checker
