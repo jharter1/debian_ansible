@@ -32,4 +32,8 @@
         - virtinst
         - virt-manager
         - resolvconf
-        - cpu-checker
+        - googler
+        - ranger
+        - calcurse
+        - neofetch
+        - chkrootkit
