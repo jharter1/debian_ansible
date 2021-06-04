@@ -38,3 +38,7 @@
         - neofetch
         - chkrootkit
         - python
+        - iputils-ping
+        - iputils-tracepath
+        - cifs-utilities
+        - locate
