@@ -10,6 +10,7 @@
         update_cache: True
       loop:
         - zsh
+        - aptitude
         - vim
         - curl
         - unzip
@@ -18,19 +19,12 @@
         - ca-certificates
         - gnupg
         - lynx
-        - qemu
         - tmux
         - make
         - tree
         - speedtest-cli
         - glances
-        - virtualbox-qt
-        - qemu-kvm
-        - libvirt-daemon-system
-        - libvirt-clients
         - bridge-utils
-        - virtinst
-        - virt-manager
         - resolvconf
         - googler
         - ranger
@@ -40,5 +34,6 @@
         - python
         - iputils-ping
         - iputils-tracepath
-        - cifs-utilities
         - locate
+        - logwatch
+        - fail2ban
