@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  user: ansible
+  user: jharter1
   become: True
   tasks:
     - name: Install stuff
@@ -31,9 +31,10 @@
         - calcurse
         - neofetch
         - chkrootkit
-        - python
         - iputils-ping
         - iputils-tracepath
         - locate
         - logwatch
         - fail2ban
+        - htop
+        - qemu-utils
